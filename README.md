@@ -20,7 +20,7 @@ The ```Driver``` class represents a driver for this application. The attributes 
 
 To store the ```Driver``` objects, a dictionary has been used because search operations on a dictionary could be performed in a average case complexity of **O(1)**. To sort the dictionary according to the miles traveled by the drivers, an inbuilt function named ```sorted()``` has been used, which has a worst case complexity of **O(n log n)**.
 ### Application Flow
-![Application flow flowchart](https://github.com/anshumanbora/driver-manager/img/root-1.png)
+![Application flow flowchart](https://raw.githubusercontent.com/anshumanbora/driver-manager/master/img/root-1.png)
 ### Testing
 The application has gone through a comprehensive unit testing. Python's inbuilt ``unittest`` library has been used to develop all unit tests. The test cases has been implemented to handle the maximum number of edge cases that came to my mind. For the methods returning the dictionary I could only come up with a test which checks whether the return value is a dictionary or not. This is an area in the testing module which might have a future scope of improvement.      
 **Running the tests:** From the command line inside the root directory run this command: ``python -m unittest test_rootmain.TestRootmain``
