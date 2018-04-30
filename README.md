@@ -4,6 +4,12 @@
 
 **Language**: Python 3.6.2
 **Operating System**: Windows
+### Running the application
+
+Extract the application to your favorite directory. The application must be run from the command line. 
+On the command line from the directory containing the file **rootmain.py**, run: ```python rootmain input_file.txt output_file.txt```.
+
+Where **input_file.txt** and **output_file.txt** are the respective files to read from and write to.
 
 ### Approach
 #### Assumptions
@@ -28,7 +34,3 @@ The application has gone through a comprehensive unit testing. Python's inbuilt 
 **Test coverage report:** 95% Coverage.
 
 ![Test Coverage report](https://raw.githubusercontent.com/anshumanbora/driver-manager/master/img/coverage.PNG)
-### Running the application
-
-The application must be run from the command line. On the command line from the directory containing the file **rootmain.py**, run: ```python rootmain input_file.txt output_file.txt```.
-Where **input_file.txt** and **output_file.txt** are the respective files to read from and write to.
