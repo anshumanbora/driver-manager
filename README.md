@@ -25,7 +25,8 @@ To store the ```Driver``` objects, a dictionary has been used because search ope
 The application has gone through a comprehensive unit testing. Python's inbuilt ``unittest`` library has been used to develop all unit tests. The test cases has been implemented to handle the maximum number of edge cases that came to my mind. For the methods returning the dictionary I could only come up with a test which checks whether the return value is a dictionary or not. This is an area in the testing module which might have a future scope of improvement.      
 **Running the tests:** From the command line inside the root directory run this command: ``python -m unittest test_rootmain.TestRootmain``
 
-**Test coverage report:**
+**Test coverage report:** 95% Coverage.
+
 ![Test Coverage report](https://raw.githubusercontent.com/anshumanbora/driver-manager/master/img/coverage.PNG)
 ### Running the application
 
